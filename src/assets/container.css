@@ -35,6 +35,10 @@ main .heading2{
     position: absolute;
 }
 
+main .heading2 h2{
+    color: #cccccc;
+}
+
 main .heading2 p{
     color: #cccccc;
     margin-bottom: 12px;

@@ -19,6 +19,7 @@
             </p>
         </div>
         <div class="heading2">
+            <h2>Experience: </h2>
             <p>Over the years, I've grown from building basic<br>
                 websites to creating full learnig platforms<br>
                 powered by Django and modern frontend frameworks.<br>
