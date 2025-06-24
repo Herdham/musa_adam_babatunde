@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', san-serif;
+}
+
+body{
+    background-color: #212529;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar .first{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .first .brand{
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .first .brand ion-icon{
+    margin-right: 10px;
+    color: #ff7f50;
+}
+
+.navbar .first .brand h3{
+    color: #fff;
+}
+
+.navbar .first ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .first ul li{
+    margin-right: 15px;
+    list-style: none;
+}
+
+.navbar .first ul li a{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.navbar .second{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .second a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar .second a ion-icon{
+    margin-right: 15px;
+    color: #ff7f50;
+    font-size: 19px;
+}
+
+.navbar .second #menu{
+    font-size: 22px;
+    color: #fff;
+    display: none;
+}
+
+.dropdown{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    margin-top: 30px;
+    position: absolute;
+    z-index: 10;
+}
+
+.dropdown.show{
+    display: block;
+}
+
+.dropdown ul{
+    margin-bottom: 15px;
+}
+
+.dropdown ul li a{
+    color: #ff7f50;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.dropdown a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.dropdown a ion-icon{
+    margin-right: 15px;
+    color: #ff7f50;
+    font-size: 19px;
+}
+
+@media(max-width: 700px){
+
+    .navbar .first ul{
+        display: none;
+    }
+
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .navbar .second a{
+        display: none;
+    }
+
+    .navbar .second #menu{
+        display: block;
+    }
+}
+
+@media(max-width: 400px){
+    .navbar .second a{
+        display: none;
+    }
+}

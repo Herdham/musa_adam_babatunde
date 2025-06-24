@@ -1,0 +1,115 @@
+main{
+    margin-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+}
+
+main .heading{
+    transform: translateY(100px);
+    position: absolute;
+}
+
+main .heading h1{
+    line-height: 1;
+    color: #fff;
+}
+
+main .heading h1 span{
+    color: #474b50;
+}
+
+main .heading hr{
+    width: 50px;
+    border: 1px solid #ff7f50;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main .heading p{
+    color: #cccccc;
+}
+
+main .heading2{
+    transform: translateX(750px) translateY(100px);
+    position: absolute;
+}
+
+main .heading2 p{
+    color: #cccccc;
+    margin-bottom: 12px;
+}
+
+main .heading2 a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #008080;
+    margin-bottom: 10px;
+}
+
+main .heading2 a span{
+    margin-right: 20px;
+}
+
+main .heading2 ul li{
+    color: #ff7f50;
+}
+
+main .heading2 .media{
+    display: flex;
+    align-items: center;
+}
+
+main .heading2 .media li{
+    margin-right: 15px;
+    list-style: none;
+}
+
+main .heading2 .media li a{
+    text-decoration: none;
+}
+
+main .heading2 .media li a ion-icon{
+    padding: 8px;
+    background-color: #cccccc;
+    border-radius: 50px;
+}
+
+
+.wrapper{
+    position: absolute;
+    transform: translateY(450px);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.wrapper h2{
+    color: #008080;
+}
+
+.wrapper p{
+    color: #cccccc;
+    margin-bottom: 10px;
+}
+
+.wrapper p span{
+    color: #ff7f50;
+}
+
+@media(max-width: 1120px){
+    main .heading2{
+        transform: translateX(500px) translateY(100px);
+        position: absolute;
+    }
+}
+
+@media(max-width: 1000px){
+    main .heading2 {
+        transform: translateX(0px) translateY(400px);
+    }
+
+    .wrapper{
+        transform: translateY(800px);
+    }
+}
