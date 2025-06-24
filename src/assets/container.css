@@ -113,3 +113,14 @@ main .heading2 .media li a ion-icon{
         transform: translateY(800px);
     }
 }
+
+@media(max-width: 400px){
+        main .heading2 {
+        transform: translateX(0px) translateY(500px);
+        margin-top: 50px;
+    }
+
+    .wrapper{
+        margin-top: 300px;
+    }
+}
